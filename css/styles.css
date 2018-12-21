@@ -1,4 +1,31 @@
-body{
+body {
     margin: 0;
     font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1c8bc1;
+}
+
+a:hover {
+    color: #ddd417;
+}
+
+@media screen and (max-width: 920px) {
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+    flex-direction: column;
 }
